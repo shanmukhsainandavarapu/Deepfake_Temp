@@ -1,0 +1,12 @@
+# Python Virtual Environment
+venv/
+__pycache__/
+
+
+# TensorFlow and Keras models
+*.h5
+*.keras
+
+# Large Data Fo/
+raw_data/
+data_preprocessed/

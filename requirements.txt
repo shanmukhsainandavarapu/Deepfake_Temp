@@ -1,0 +1,19 @@
+
+# requirements.txt
+
+# --- Core Machine Learning ---
+tensorflow==2.16.1         # The main ML framework (for Python 3.11)
+scikit-learn==1.5.0      # For metrics (confusion matrix, classification report)
+
+# --- Data Plotting & Visualization ---
+matplotlib==3.8.4        # For plotting accuracy/loss graphs
+seaborn==0.13.2            # For making prettier plots (like heatmaps)
+
+# --- Image & Data Handling ---
+opencv-python-headless==4.9.0.80  # For image processing utilities
+Pillow==10.3.0             # Image library, dependency for TensorFlow
+
+# --- Project Tools & Utilities ---
+notebook==7.1.3            # For running your Jupyter Notebook
+kaggle==1.6.14             # The Kaggle API for downloading data
+tqdm==4.66.4               # Your explicit progress bar library
